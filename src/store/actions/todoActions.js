@@ -14,7 +14,6 @@ export const getListTask = () => dispatch => {
     })
 }
 export const completeTask = id => dispatch => {
-    console.log('dispatch complete task')
     dispatch({
         type: 'COMPLETE_TASK',
         payload: id,
@@ -27,7 +26,6 @@ export const deleteTask = id => dispatch => {
     })
 }
 export const addTask = newTask => dispatch => {
-    console.log('dispatch add task')
     dispatch({
         type: 'ADD_TASK',
         payload: newTask,

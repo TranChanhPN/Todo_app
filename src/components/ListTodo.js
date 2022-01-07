@@ -16,9 +16,6 @@ const Listtodo = ({ todoList,query, getListTask }) => {
     return (
         <div>
             <ul>
-                {console.log('query is')}
-                {console.log(query)};
-                {console.log('query is')}
                 {todoList
                 .filter(item=>item.tittle.includes(query))
                 .map(item => (<Itemtodo key={item.id} item={item}></Itemtodo>

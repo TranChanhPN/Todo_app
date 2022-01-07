@@ -12,7 +12,6 @@ const todoReducer = (state=initialState,action)=>{
                 query: action.payload.query
             }
         case 'COMPLETE_TASK':
-            console.log('case conpkete task');
             return{
                 ...state,
                 todoList: state.todoList.map(item =>{
@@ -34,9 +33,6 @@ const todoReducer = (state=initialState,action)=>{
                 todoList:state.todoList.filter(item=>item.id !== action.payload)
             }
         case 'QUERY_TASK':
-            console.log('reducer query la')
-            console.log(action.payload)
-            console.log('reducer query la')
             return {
                 ...state,
                 query:action.payload,
