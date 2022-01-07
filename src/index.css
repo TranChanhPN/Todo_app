@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 500px;
+  margin : 0 auto;
+  margin-top: 50px;
+  background-color:rgb(190, 230, 241)
+}
+
+.addtodo input{
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+.addtodo{
+  display: flex;
+  justify-content: space-between;
+}
+.addtodo button{
+  height: 34px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+li button{
+  margin-right: 10px;
+}
+button:hover{
+  background-color: rgb(54, 14, 128);
+  color:azure;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+ul {
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  line-height: 35px;
+}
+
+.appname{
+  text-align: center;
+  margin-top: 20px;
+}
+.query input{
+  display: inline-block;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+.query{
+  display: flex;
+  justify-content: space-between;
+}
+.query button{
+  height: 34px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+
