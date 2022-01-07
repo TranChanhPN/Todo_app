@@ -16,8 +16,7 @@ const todoReducer = (state=initialState,action)=>{
                 ...state,
                 todoList: state.todoList.map(item =>{
                     if(item.id === action.payload) {
-                        item.complete=! item.complete;
-                        console.log(`item sau khi sua: ${item.complete}`);
+                        item={...item,complete:!item.complete}
                     }
                     return item
                 }),

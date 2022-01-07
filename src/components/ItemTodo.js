@@ -14,10 +14,12 @@ const Itemtodo = ({ item, completeTask, deleteTask }) => {
     const btnDelete_Click = () => {
         deleteTask(item.id)
     }
+    console.log(item);
     return (
         <li className={item.complete ? 'completed' : ''}>
 
             {item.tittle}
+            {item.complete}
             <div>
                 {!item.complete && <button onClick={btnComplete_Click}>Complete </button>}
                 <button onClick={btnDelete_Click}>Delete </button>

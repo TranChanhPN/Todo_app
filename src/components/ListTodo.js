@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
-// import ProTypes from 'prop-types'
 import { connect } from 'react-redux'
-
 import { getListTask } from '../store/actions/todoActions'
 import Itemtodo from './ItemTodo'
 
@@ -16,6 +14,7 @@ const Listtodo = ({ todoList,query, getListTask }) => {
     return (
         <div>
             <ul>
+                
                 {todoList
                 .filter(item=>item.tittle.includes(query))
                 .map(item => (<Itemtodo key={item.id} item={item}></Itemtodo>

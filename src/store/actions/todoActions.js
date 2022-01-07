@@ -1,9 +1,9 @@
 const todoList = [
-    { id: 1, tittle: 'Task 1', complete: true },
-    { id: 2, tittle: 'Task 2', complete: false },
-    { id: 3, tittle: 'Task 3', complete: true },
-    { id: 4, tittle: 'Task 4', complete: false },
-    { id: 5, tittle: 'Task 5', complete: true },
+    { id: 1, tittle: 'Learn Docker', complete: true },
+    { id: 2, tittle: 'Learn Java Core', complete: false },
+    { id: 3, tittle: 'Learn Reactjs', complete: true },
+    { id: 4, tittle: 'Learn C#', complete: false },
+    { id: 5, tittle: 'Practice C++', complete: true },
 ]
 const query ='';
 
